@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"</script>
+    <title>music-player</title>
+</head>
+<body>
+<div class="player">
+    <audio id="audioPlayer" src="https://jacobsm.com/geedryve/records/OtherMP3s/Boney%20M/Rasputin.mp3"></audio>
+    <section class="player-section">
+      <div class="player-info">
+        <div class="music-info">
+          <div class="music-name" id="music-name">Rasputin</div>
+          <div class="music-artist">Boney M</div>
+        </div>
+        <div class="equalizer">
+          <div class="equalizer-bar">
+            <div class="progress"></div>
+          </div>
+          <div class="equalizer-bar">
+            <div class="progress"></div>
+          </div>
+          <div class="equalizer-bar">
+            <div class="progress"></div>
+          </div>
+          <div class="equalizer-bar">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="player-section">
+      <div class="player-controls">
+        <button class="player-control-btn" id="play" disabled>
+          <p><i class="fa fa-spinner fa-spin"></i></p>
+        </button>
+        <button class="player-control-btn" id="pause" disabled>
+          <p><i class="fa fa-pause" aria-hidden="true"></i></p>
+        </button>
+        <button class="player-control-btn" id="stop">
+          <p><i class="fa fa-stop" aria-hidden="true"></i></p>
+        </button>
+        <button class="player-control-btn"  id="prev">
+          <p><i class="fa fa-step-backward" aria-hidden="true"></i></p>
+        </button>
+        <button class="player-control-btn"  id="next">
+          <p><i class="fa fa-step-forward" aria-hidden="true"></i></p>
+        </button>
+      </div>
+    </section>
+    <section class="player-section">
+      <div class="player-progress">
+        <div class="progress"></div>
+      </div>
+    </section>
+  </div>
+  <div class="attribution">
+    Designed and Code by Christina
+  </div>
+</body>
+</html>
